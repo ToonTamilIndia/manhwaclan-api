@@ -40,9 +40,9 @@ GET /manga/one-day-i-found-a-husband/chapter-1
 
 ### Local Deployment
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone https://github.com/ToonTamilIndia/manhwaclan-api.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the application: `python app.py`
+3. Run the application: `python main.py`
 
 ### Vercel Deployment (Using CLI)
 
