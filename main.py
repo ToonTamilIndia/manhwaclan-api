@@ -22,7 +22,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Anime API</title>
+        <title>Manhwaclan API</title>
         <style>
             body {
                 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -170,18 +170,18 @@ def search_manga(search_query):
         if title_tag:
             title = title_tag.text.strip()
             manga_url = title_tag.find('a')['href']
-            
+            manga_id_parts = manga_id_full.split('/')
+            manga_id = manga_id_parts[-2]
             # Extracting other details
             cover_url = manga.find('img')['src']
-            alternative = manga.find('div', class_='summary-content').text.strip()
             latest_chapter = manga.find('span', class_='chapter').text.strip()
             rating = manga.find('span', class_='score').text.strip()
 
             manga_list.append({
                 'title': title,
                 'manga_url': manga_url,
+                'manga_id': manga_id,
                 'cover_url': cover_url,
-                'alternative' : alternative,
                 'latest_chapter': latest_chapter,
                 'rating': rating
             })
