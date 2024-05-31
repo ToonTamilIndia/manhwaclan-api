@@ -22,7 +22,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Anime API</title>
+        <title>Manhwaclan API</title>
         <style>
             body {
                 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
