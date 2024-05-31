@@ -29,7 +29,7 @@ GET /search/one piece
 ### Example 2: Retrieve Manga Information
 
 ```http
-GET manga/imprisoned-one-million-years-my-disciples-are-all-over-the-world
+GET /manga/imprisoned-one-million-years-my-disciples-are-all-over-the-world
 ```
 ### Example 3: Retrieve Chapter Data
 
