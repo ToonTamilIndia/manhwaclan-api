@@ -22,7 +22,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Manhwaclan API</title>
+        <title>Anime API</title>
         <style>
             body {
                 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -164,13 +164,12 @@ def search_manga(search_query):
     
     manga_list = []
     manga_container = soup.find_all('div', class_='row c-tabs-item__content')
-
     for manga in manga_container:
         title_tag = manga.find('h3', class_='h4')
         if title_tag:
             title = title_tag.text.strip()
             manga_url = title_tag.find('a')['href']
-            manga_id_parts = manga_id_full.split('/')
+            manga_id_parts = manga_url.split('/')
             manga_id = manga_id_parts[-2]
             # Extracting other details
             cover_url = manga.find('img')['src']
@@ -179,14 +178,16 @@ def search_manga(search_query):
 
             manga_list.append({
                 'title': title,
-                'manga_url': manga_url,
                 'manga_id': manga_id,
+                'manga_url': manga_url,
                 'cover_url': cover_url,
                 'latest_chapter': latest_chapter,
                 'rating': rating
             })
     
     return jsonify(manga_list)
+
+
     
 @app.route("/manga", methods=["GET"])
 def get_manga_list():
