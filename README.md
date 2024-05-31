@@ -52,7 +52,7 @@ GET /manga/one-day-i-found-a-husband/chapter-1
 
 Visit the deployed example at [manhwaclan.vercel.app](https://manhwaclan.vercel.app/).
 
-## Support and Contact (Continued)
+## Support and Contact
 
 For any further assistance, inquiries, don't hesitate to reach out to us through our [Telegram Support Channel](https://telegram.me/toontamilindia).
 
