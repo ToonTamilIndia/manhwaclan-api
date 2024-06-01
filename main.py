@@ -5,7 +5,7 @@ import urllib.parse
 
 app = Flask(__name__)
 
-base_url = 'https://manhuatop.org/'
+base_url = 'https://manhwaclan.com/'
 
 def fetch_page(url):
     response = requests.get(url)
