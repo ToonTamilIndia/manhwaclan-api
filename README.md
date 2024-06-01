@@ -14,7 +14,7 @@ Welcome to the manhwaclan API! This API provides comprehensive access to informa
 
 - **[harimanga](https://harimanga.com/)**
 - **[kunmanga](https://kunmanga.com/)**
-
+- **[harimanga.io](https://harimanga.io/)**
 
 ## Routes
 
