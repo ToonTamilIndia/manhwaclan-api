@@ -1,6 +1,6 @@
 # Manhwaclan API
 
-Welcome to the manhwaclan API! This API provides comprehensive access to information about Manga, Manhwa, and Manhua. Data is meticulously scraped from various sources, including manhwaclan, with the capability to gather data from multiple manga websites utilizing the madara themes in Wordpress.
+Welcome to the manhwaclan API! This API provides comprehensive access to information about Manga, Manhwa, and Manhua. Data is meticulously scraped from  manhwaclan, with the capability to gather data from multiple manga websites utilizing the madara themes in Wordpress.
 
 ## Features
 
