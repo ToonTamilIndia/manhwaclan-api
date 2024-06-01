@@ -10,6 +10,12 @@ Welcome to the manhwaclan API! This API provides comprehensive access to informa
 - **Chapter Data**: Obtain images and related data for specific chapters.
 - **Support**: Visit our [Telegram Support Channel](https://telegram.me/toontamilindia) for assistance and questions.
 
+## The other Website compatible with this api
+
+- **[harimanga](https://harimanga.com/)**
+- **[kunmanga](https://kunmanga.com/)**
+
+
 ## Routes
 
 - **`/manga` or `/manga?pages={page_number}`**: Retrieve the home page of the manhwaclan.
