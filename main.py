@@ -290,7 +290,6 @@ def get_manga_details(id): # Replace with your base URL
 
     return jsonify(details)
 
-from flask import request
 
 @app.route("/genre/<genreid>", methods=["GET"])
 def get_genre_details(genreid):
